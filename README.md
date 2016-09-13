@@ -34,7 +34,7 @@
 
 ## 技术架构
 
-1. 框架      : Spring framework 2.5.x
+1. 框架      : Spring framework 4.2.7
 2. 持久层    : MyBatis 3.4.x
 3. 数据库    : mysql 5.7
 4. 前端框架  : bootstrap v3.x
