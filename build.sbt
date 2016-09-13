@@ -14,3 +14,11 @@ libraryDependencies ++= Seq(
     "mysql" % "mysql-connector-java" % "5.1.38",
     "com.typesafe.play" %% "play-slick" % "2.0.0"
 )
+
+resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases"
+
+PlayKeys.devSettings := Seq("play.server.http.port" -> "8888")
+
+//EclipseKeys.withSource := true
+
+routesGenerator := InjectedRoutesGenerator
